@@ -21,7 +21,7 @@ internal class BasicScenarios
     [SetUp]
     public static void SetUp()
     {
-        Log.Information($"Test {TestContext.CurrentContext.Test.Name} has been started");
+        Log.Information($"\n----Test {TestContext.CurrentContext.Test.Name} has been started----\n");
     }
 
     [OneTimeTearDown]
@@ -33,10 +33,12 @@ internal class BasicScenarios
 
     internal static void InitializeLogger()
     {
+        var className = TestContext.CurrentContext.Test.ClassName;
+        className = className.Substring(className.LastIndexOf('.') + 1);
         Log.Logger = new LoggerConfiguration()
             .MinimumLevel.Information()
             .WriteTo.Console()
-            .WriteTo.File("../../../../log.txt")
+            .WriteTo.File($"../../../Logs/{className}.txt", rollingInterval: RollingInterval.Minute, retainedFileCountLimit: 2)
             .CreateLogger();
     }
 
