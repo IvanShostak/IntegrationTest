@@ -1,0 +1,730 @@
+2023-08-18 16:40:21.500 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-18 16:40:21.537 +03:00 [INF] REQUEST: [POST] to /https://dummyjson.com/products/add with 
+{"Title":"title1","Description":"description1","Price":190,"IsEmpty":false}
+
+2023-08-18 16:40:22.798 +03:00 [INF] RESPONSE: 200 with 
+{"id":101,"title":"title1","price":190,"description":"description1"}
+
+2023-08-18 16:40:22.798 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-18 16:40:22.851 +03:00 [INF] Correct Title: actual title1 is equal title1
+2023-08-18 16:40:22.851 +03:00 [INF] Correct Description: actual description1 is equal description1
+2023-08-18 16:40:22.851 +03:00 [INF] Correct Price: actual 190 is equal 190
+2023-08-18 16:40:22.851 +03:00 [INF] Correct IsEmpty: actual False is equal False
+2023-08-22 11:46:54.825 +03:00 [INF] Application was started
+2023-08-22 11:46:54.992 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 11:46:55.012 +03:00 [INF] REQUEST: [POST] to http://localhost//https://dummyjson.com/products/add with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 11:46:55.101 +03:00 [INF] RESPONSE: 404 with 
+
+
+2023-08-22 11:46:55.101 +03:00 [ERR] !! ERROR: Status Code actual 200 is NOT equal 404
+2023-08-22 11:47:31.992 +03:00 [INF] Application was started
+2023-08-22 11:50:12.332 +03:00 [INF] Application was started
+2023-08-22 11:50:12.429 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 11:50:12.449 +03:00 [INF] REQUEST: [POST] to http://localhost//http://localhost/api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 11:50:12.572 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 11:50:12.572 +03:00 [ERR] !! ERROR: Status Code actual 200 is NOT equal 201
+2023-08-22 11:51:05.679 +03:00 [INF] Application was started
+2023-08-22 11:51:05.748 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 11:51:05.764 +03:00 [INF] REQUEST: [POST] to http://localhost//http://localhost/api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 11:51:05.850 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 11:51:05.850 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 11:51:05.925 +03:00 [INF] Correct Title: actual title1 is equal title1
+2023-08-22 11:51:05.925 +03:00 [INF] Correct Description: actual description1 is equal description1
+2023-08-22 11:51:05.925 +03:00 [INF] Correct Price: actual 190 is equal 190
+2023-08-22 11:51:57.909 +03:00 [INF] Application was started
+2023-08-22 11:51:57.981 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 11:51:57.996 +03:00 [INF] REQUEST: [POST] to http://localhost///api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 11:51:58.080 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 11:51:58.080 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 11:51:58.133 +03:00 [INF] Correct Title: actual title1 is equal title1
+2023-08-22 11:51:58.133 +03:00 [INF] Correct Description: actual description1 is equal description1
+2023-08-22 11:51:58.133 +03:00 [INF] Correct Price: actual 190 is equal 190
+2023-08-22 11:52:14.226 +03:00 [INF] Application was started
+2023-08-22 11:52:14.297 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 11:52:14.312 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 11:52:14.396 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 11:52:14.396 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 11:52:14.450 +03:00 [INF] Correct Title: actual title1 is equal title1
+2023-08-22 11:52:14.450 +03:00 [INF] Correct Description: actual description1 is equal description1
+2023-08-22 11:52:14.450 +03:00 [INF] Correct Price: actual 190 is equal 190
+2023-08-22 12:05:21.267 +03:00 [INF] Application was started
+2023-08-22 12:05:21.347 +03:00 [INF] Step number 1: CreateProductWithoutPrice
+2023-08-22 12:05:21.364 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":null,"Description":"description2","Title":"title2"}
+
+2023-08-22 12:06:17.086 +03:00 [INF] Application was started
+2023-08-22 12:06:17.159 +03:00 [INF] Step number 1: CreateProductWithoutPrice
+2023-08-22 12:06:17.177 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":null,"Description":"description2","Title":"title2"}
+
+2023-08-22 12:06:17.260 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":null,"description":"description2","title":"title2"}
+
+2023-08-22 12:06:17.260 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 12:06:56.444 +03:00 [INF] Application was started
+2023-08-22 12:06:56.513 +03:00 [INF] Step number 1: CreateProductWithoutPrice
+2023-08-22 12:06:56.529 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":null,"Description":"description2","Title":"title2"}
+
+2023-08-22 12:06:56.622 +03:00 [INF] RESPONSE: 400 with 
+
+
+2023-08-22 12:06:56.622 +03:00 [ERR] !! ERROR: Status Code actual 201 is NOT equal 400
+2023-08-22 12:07:05.843 +03:00 [INF] Application was started
+2023-08-22 12:07:05.916 +03:00 [INF] Step number 1: CreateProductWithoutPrice
+2023-08-22 12:07:05.933 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":null,"Description":"description2","Title":"title2"}
+
+2023-08-22 12:07:50.527 +03:00 [INF] Application was started
+2023-08-22 12:07:57.720 +03:00 [INF] Step number 1: CreateProductWithoutPrice
+2023-08-22 12:07:57.761 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":null,"Description":"description2","Title":"title2"}
+
+2023-08-22 12:26:14.826 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 12:26:14.851 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 12:26:14.938 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 12:26:14.938 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 12:27:23.403 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 12:27:23.432 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 12:27:23.523 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 12:27:23.524 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 12:27:36.090 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 12:27:36.115 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 12:27:36.199 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 12:27:36.200 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 12:30:48.863 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 12:30:48.888 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 12:30:48.968 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 12:30:48.968 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 12:30:54.340 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 12:30:54.365 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 12:30:54.450 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 12:30:54.450 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 12:31:38.765 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 12:31:38.830 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 12:31:46.435 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 12:31:46.436 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 12:31:59.372 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 12:31:59.433 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 12:31:59.666 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 12:31:59.667 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 12:32:30.034 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 12:32:30.059 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 12:32:30.144 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 12:32:30.145 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 12:32:39.595 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 12:32:39.655 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 12:32:39.909 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 12:32:39.910 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 12:34:40.806 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 12:34:40.831 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 12:34:40.920 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 12:34:40.920 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 12:34:40.971 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 12:35:34.286 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 12:35:34.311 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 12:35:34.398 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 12:35:34.398 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 12:35:34.449 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 12:35:34.450 +03:00 [INF] RESPONSE: 200 with 
+
+
+2023-08-22 12:37:33.093 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 12:37:33.117 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 12:37:33.202 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 12:37:33.203 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 12:37:33.254 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 12:37:33.255 +03:00 [INF] RESPONSE: 200 with 
+
+
+2023-08-22 12:38:43.361 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 12:38:43.421 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 12:38:43.690 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 12:38:43.691 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 12:38:43.832 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 12:42:05.198 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 12:42:05.223 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 12:42:05.304 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 12:42:05.304 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 12:42:05.362 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 12:42:05.363 +03:00 [INF] RESPONSE: 200 with 
+
+
+2023-08-22 12:43:43.893 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 12:43:43.919 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 12:43:43.998 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 12:43:43.998 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 12:43:44.055 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 12:43:44.056 +03:00 [INF] RESPONSE: 200 with 
+
+
+2023-08-22 12:43:44.056 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-22 12:44:35.852 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 12:44:35.877 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 12:44:35.956 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 12:44:35.956 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 12:44:36.017 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/4 
+
+2023-08-22 12:44:36.018 +03:00 [INF] RESPONSE: 200 with 
+
+
+2023-08-22 12:44:36.018 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-22 12:59:39.638 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 12:59:39.706 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 12:59:39.924 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 12:59:39.925 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 12:59:40.135 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/4 
+
+2023-08-22 13:06:10.871 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 13:06:10.937 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 13:06:11.237 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 13:06:11.238 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 13:06:11.442 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/4 
+
+2023-08-22 13:13:28.071 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 13:13:28.098 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 13:13:28.188 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 13:13:28.188 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 13:13:28.245 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/4 
+
+2023-08-22 13:13:28.247 +03:00 [INF] RESPONSE: 200 with 
+
+
+2023-08-22 13:13:28.247 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-22 13:13:51.909 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 13:13:51.940 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 13:13:52.038 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 13:13:52.039 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 13:13:52.095 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/4 
+
+2023-08-22 13:13:52.097 +03:00 [INF] RESPONSE: 200 with 
+
+
+2023-08-22 13:13:52.097 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-22 13:15:16.517 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 13:15:16.544 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 13:15:16.642 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 13:15:16.642 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 13:15:16.698 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/4 
+
+2023-08-22 13:15:16.699 +03:00 [INF] RESPONSE: 200 with 
+
+
+2023-08-22 13:15:16.699 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-22 13:16:14.992 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 13:16:15.018 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 13:16:15.113 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 13:16:15.114 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 13:16:15.170 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/4 
+
+2023-08-22 13:16:15.171 +03:00 [INF] RESPONSE: 204 with 
+
+
+2023-08-22 13:16:15.171 +03:00 [ERR] !! ERROR: Status Code actual 200 is NOT equal 204
+2023-08-22 13:17:03.419 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 13:17:03.446 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 13:17:03.529 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 13:17:03.530 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 13:17:03.589 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 13:17:03.590 +03:00 [INF] RESPONSE: 200 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 13:17:03.591 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-22 13:17:03.591 +03:00 [INF] Correct Title: actual title1 is equal title1
+2023-08-22 13:17:03.591 +03:00 [INF] Correct Description: actual description1 is equal description1
+2023-08-22 13:17:03.592 +03:00 [INF] Correct Price: actual 190 is equal 190
+2023-08-22 13:18:10.063 +03:00 [INF] Step number 1: CreateProductWithoutPrice
+2023-08-22 13:18:10.088 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":null,"Description":"description2","Title":"title2"}
+
+2023-08-22 13:25:00.506 +03:00 [INF] Step number 1: EditProductAndGet
+2023-08-22 13:25:00.532 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":120,"Description":"description1","Title":"title1"}
+
+2023-08-22 13:25:00.625 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":120,"description":"description1","title":"title1"}
+
+2023-08-22 13:25:00.625 +03:00 [INF] Correct Status Code
+: actual 201 is equal 201
+2023-08-22 13:25:00.680 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products 
+
+2023-08-22 13:25:00.681 +03:00 [INF] RESPONSE: 405 with 
+
+
+2023-08-22 13:25:00.681 +03:00 [ERR] !! ERROR: Status Code actual 200 is NOT equal 405
+2023-08-22 13:27:33.528 +03:00 [INF] Step number 1: EditProductAndGet
+2023-08-22 13:27:33.555 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":120,"Description":"description1","Title":"title1"}
+
+2023-08-22 13:27:33.647 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":120,"description":"description1","title":"title1"}
+
+2023-08-22 13:27:33.648 +03:00 [INF] Correct Status Code
+: actual 201 is equal 201
+2023-08-22 13:27:33.706 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 13:27:33.708 +03:00 [INF] RESPONSE: 204 with 
+
+
+2023-08-22 13:27:33.708 +03:00 [ERR] !! ERROR: Status Code actual 200 is NOT equal 204
+2023-08-22 13:30:07.573 +03:00 [INF] Step number 1: EditProductAndGet
+2023-08-22 13:30:07.599 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":120,"Description":"description1","Title":"title1"}
+
+2023-08-22 13:30:07.690 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":120,"description":"description1","title":"title1"}
+
+2023-08-22 13:30:07.691 +03:00 [INF] Correct Status Code
+: actual 201 is equal 201
+2023-08-22 13:30:07.760 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 13:30:07.763 +03:00 [INF] RESPONSE: 204 with 
+
+
+2023-08-22 13:30:07.763 +03:00 [INF] Correct Status Code: actual 204 is equal 204
+2023-08-22 13:34:01.171 +03:00 [INF] Step number 1: EditProductAndGet
+2023-08-22 13:34:01.197 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":120,"Description":"description1","Title":"title1"}
+
+2023-08-22 13:34:01.287 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":120,"description":"description1","title":"title1"}
+
+2023-08-22 13:34:01.288 +03:00 [INF] Correct Status Code
+: actual 201 is equal 201
+2023-08-22 13:34:01.341 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 13:34:01.343 +03:00 [INF] RESPONSE: 204 with 
+
+
+2023-08-22 13:34:01.343 +03:00 [INF] Correct Status Code: actual 204 is equal 204
+2023-08-22 13:34:07.864 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 13:34:07.891 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 13:34:07.985 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 13:34:07.985 +03:00 [INF] Correct Status Code
+: actual 201 is equal 201
+2023-08-22 13:34:08.047 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 13:34:08.048 +03:00 [INF] RESPONSE: 200 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 13:34:08.048 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-22 13:34:08.049 +03:00 [INF] Correct Title: actual title1 is equal title1
+2023-08-22 13:34:08.049 +03:00 [INF] Correct Description: actual description1 is equal description1
+2023-08-22 13:34:08.050 +03:00 [INF] Correct Price: actual 190 is equal 190
+2023-08-22 13:34:30.466 +03:00 [INF] Step number 1: CreateProductAndVerifyFields
+2023-08-22 13:34:30.492 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 13:34:30.575 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 13:34:30.575 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 13:34:30.634 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 13:34:30.636 +03:00 [INF] RESPONSE: 200 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 13:34:30.636 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-22 13:34:30.637 +03:00 [INF] Correct Title: actual title1 is equal title1
+2023-08-22 13:34:30.637 +03:00 [INF] Correct Description: actual description1 is equal description1
+2023-08-22 13:34:30.637 +03:00 [INF] Correct Price: actual 190 is equal 190
+2023-08-22 13:34:32.985 +03:00 [INF] Step number 1: EditProductAndGet
+2023-08-22 13:34:33.010 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":120,"Description":"description1","Title":"title1"}
+
+2023-08-22 13:34:33.101 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":120,"description":"description1","title":"title1"}
+
+2023-08-22 13:34:33.102 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 13:34:33.158 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 13:34:33.160 +03:00 [INF] RESPONSE: 204 with 
+
+
+2023-08-22 13:34:33.160 +03:00 [INF] Correct Status Code: actual 204 is equal 204
+2023-08-22 13:37:13.989 +03:00 [INF] Step number 1: EditProductAndGet
+2023-08-22 13:37:14.054 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":120,"Description":"description1","Title":"title1"}
+
+2023-08-22 13:37:14.333 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":120,"description":"description1","title":"title1"}
+
+2023-08-22 13:37:14.339 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 13:37:14.460 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 13:38:15.643 +03:00 [INF] Step number 1: EditProductAndGet
+2023-08-22 13:38:15.669 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":120,"Description":"description1","Title":"title1"}
+
+2023-08-22 13:38:15.760 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":120,"description":"description1","title":"title1"}
+
+2023-08-22 13:38:15.761 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 13:38:15.815 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 13:38:15.817 +03:00 [INF] RESPONSE: 204
+
+2023-08-22 13:38:15.817 +03:00 [INF] Correct Status Code: actual 204 is equal 204
+2023-08-22 13:38:40.770 +03:00 [INF] Step number 1: EditProductAndGet
+2023-08-22 13:38:40.843 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":120,"Description":"description1","Title":"title1"}
+
+2023-08-22 13:38:41.107 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":120,"description":"description1","title":"title1"}
+
+2023-08-22 13:38:41.107 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 13:38:41.226 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 13:39:18.362 +03:00 [INF] RESPONSE: 204
+
+2023-08-22 13:39:18.366 +03:00 [INF] Correct Status Code: actual 204 is equal 204
+2023-08-22 13:40:34.449 +03:00 [INF] Step number 1: EditProductAndGet
+2023-08-22 13:40:34.476 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":120,"Description":"description1","Title":"title1"}
+
+2023-08-22 13:40:34.576 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":120,"description":"description1","title":"title1"}
+
+2023-08-22 13:40:34.576 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 13:40:34.630 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 13:40:34.632 +03:00 [INF] RESPONSE: 204
+
+2023-08-22 13:40:34.632 +03:00 [INF] Correct Status Code: actual 204 is equal 204
+2023-08-22 14:48:30.942 +03:00 [INF] Step number 1: EditProductAndGet
+2023-08-22 14:48:30.968 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":120,"Description":"description1","Title":"title1"}
+
+2023-08-22 14:48:31.060 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":120,"description":"description1","title":"title1"}
+
+2023-08-22 14:48:31.060 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 14:48:31.113 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 14:48:31.115 +03:00 [INF] RESPONSE: 200 with 
+{"id":1,"price":120,"description":"description1","title":"title1"}
+
+2023-08-22 14:48:31.115 +03:00 [ERR] !! ERROR: Status Code actual 204 is NOT equal 200
+2023-08-22 14:48:45.140 +03:00 [INF] Step number 1: EditProductAndGet
+2023-08-22 14:48:45.166 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":120,"Description":"description1","Title":"title1"}
+
+2023-08-22 14:48:45.252 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":120,"description":"description1","title":"title1"}
+
+2023-08-22 14:48:45.252 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 14:48:45.305 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 14:48:45.307 +03:00 [INF] RESPONSE: 200 with 
+{"id":1,"price":120,"description":"description1","title":"title1"}
+
+2023-08-22 14:48:45.307 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-22 14:48:45.308 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 14:48:45.308 +03:00 [INF] RESPONSE: 200 with 
+{"id":1,"price":120,"description":"description1","title":"title1"}
+
+2023-08-22 14:48:45.308 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-22 14:48:45.309 +03:00 [INF] Correct Title: actual title1 is equal title1
+2023-08-22 14:48:45.309 +03:00 [INF] Correct Description: actual description1 is equal description1
+2023-08-22 14:48:45.309 +03:00 [ERR] !! ERROR: Price actual 120 is NOT equal 100
+2023-08-22 14:51:02.120 +03:00 [INF] Step number 1: EditProductAndGet
+2023-08-22 14:51:02.146 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":120,"Description":"description1","Title":"title1"}
+
+2023-08-22 14:51:02.232 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":120,"description":"description1","title":"title1"}
+
+2023-08-22 14:51:02.233 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 14:51:02.284 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 14:51:02.286 +03:00 [INF] RESPONSE: 200 with 
+{"id":1,"price":100,"description":"description1","title":"title1"}
+
+2023-08-22 14:51:02.286 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-22 14:51:02.287 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 14:51:02.287 +03:00 [INF] RESPONSE: 200 with 
+{"id":1,"price":100,"description":"description1","title":"title1"}
+
+2023-08-22 14:51:02.287 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-22 14:51:02.288 +03:00 [INF] Correct Title: actual title1 is equal title1
+2023-08-22 14:51:02.288 +03:00 [INF] Correct Description: actual description1 is equal description1
+2023-08-22 14:51:02.288 +03:00 [INF] Correct Price: actual 100 is equal 100
+2023-08-22 14:54:41.397 +03:00 [INF] Test EditProductAndGet has been started
+2023-08-22 14:54:41.423 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":120,"Description":"description1","Title":"title1"}
+
+2023-08-22 14:54:41.505 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":120,"description":"description1","title":"title1"}
+
+2023-08-22 14:54:41.505 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 14:54:41.563 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 14:54:41.565 +03:00 [INF] RESPONSE: 200 with 
+{"id":1,"price":100,"description":"description1","title":"title1"}
+
+2023-08-22 14:54:41.565 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-22 14:54:41.565 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 14:54:41.566 +03:00 [INF] RESPONSE: 200 with 
+{"id":1,"price":100,"description":"description1","title":"title1"}
+
+2023-08-22 14:54:41.566 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-22 14:54:41.567 +03:00 [INF] Correct Title: actual title1 is equal title1
+2023-08-22 14:54:41.567 +03:00 [INF] Correct Description: actual description1 is equal description1
+2023-08-22 14:54:41.567 +03:00 [INF] Correct Price: actual 100 is equal 100
+2023-08-22 15:01:53.458 +03:00 [INF] Test CreateProductAndVerifyFields has been started
+2023-08-22 15:01:53.484 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 15:01:53.564 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 15:01:53.564 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 15:01:53.621 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 15:01:53.623 +03:00 [INF] RESPONSE: 200 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 15:01:53.623 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-22 15:01:53.624 +03:00 [INF] Correct Title: actual title1 is equal title1
+2023-08-22 15:01:53.624 +03:00 [INF] Correct Description: actual description1 is equal description1
+2023-08-22 15:01:53.624 +03:00 [INF] Correct Price: actual 190 is equal 190
+2023-08-22 15:02:01.668 +03:00 [INF] Test CreateProductAndVerifyFields has been started
+2023-08-22 15:02:01.694 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 15:02:01.773 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 15:02:01.773 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 15:02:01.830 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 15:02:01.832 +03:00 [INF] RESPONSE: 200 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 15:02:01.832 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-22 15:02:01.832 +03:00 [INF] Correct Title: actual title1 is equal title1
+2023-08-22 15:02:01.832 +03:00 [INF] Correct Description: actual description1 is equal description1
+2023-08-22 15:02:01.833 +03:00 [INF] Correct Price: actual 190 is equal 190
+2023-08-22 15:02:01.836 +03:00 [INF] Test CreateProductWithoutPrice has been started
+2023-08-22 15:02:01.836 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":null,"Description":"description2","Title":"title2"}
+
+2023-08-22 15:02:01.837 +03:00 [INF] Test EditProductAndGet has been started
+2023-08-22 15:02:01.837 +03:00 [INF] RESPONSE: 400 with 
+
+
+2023-08-22 15:02:01.837 +03:00 [INF] Correct Status Code: actual 400 is equal 400
+2023-08-22 15:02:01.838 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":120,"Description":"description1","Title":"title1"}
+
+2023-08-22 15:02:01.838 +03:00 [INF] RESPONSE: 201 with 
+{"id":2,"price":120,"description":"description1","title":"title1"}
+
+2023-08-22 15:02:01.838 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 15:02:01.839 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/2 
+
+2023-08-22 15:02:01.840 +03:00 [INF] RESPONSE: 200 with 
+{"id":2,"price":100,"description":"description1","title":"title1"}
+
+2023-08-22 15:02:01.840 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-22 15:02:01.840 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/2 
+
+2023-08-22 15:02:01.840 +03:00 [INF] RESPONSE: 200 with 
+{"id":2,"price":100,"description":"description1","title":"title1"}
+
+2023-08-22 15:02:01.840 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-22 15:02:01.840 +03:00 [INF] Correct Title: actual title1 is equal title1
+2023-08-22 15:02:01.840 +03:00 [INF] Correct Description: actual description1 is equal description1
+2023-08-22 15:02:01.840 +03:00 [INF] Correct Price: actual 100 is equal 100
+2023-08-22 15:04:42.056 +03:00 [INF] Test CreateProductWithoutPrice has been started
+2023-08-22 15:04:42.081 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":null,"Description":"description2","Title":"title2"}
+
+2023-08-22 15:05:01.537 +03:00 [INF] Test CreateProductWithoutPrice has been started
+2023-08-22 15:05:01.562 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":null,"Description":"description2","Title":"title2"}
+
+2023-08-22 15:06:24.639 +03:00 [INF] Test CreateProductWithoutPrice has been started
+2023-08-22 15:06:24.663 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":null,"Description":"description2","Title":"title2"}
+
+2023-08-22 15:06:38.978 +03:00 [INF] Test TryToCreateProductWithoutPrice has been started
+2023-08-22 15:06:39.005 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":null,"Description":"description2","Title":"title2"}
+
+2023-08-22 15:10:40.354 +03:00 [INF] Test TryToCreateProductWithoutPrice has been started
+2023-08-22 15:10:40.379 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":null,"Description":"description2","Title":"title2"}
+
+2023-08-22 15:11:17.800 +03:00 [INF] Test CreateProductAndVerifyFields has been started
+2023-08-22 15:11:17.825 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":190,"Description":"description1","Title":"title1"}
+
+2023-08-22 15:11:17.912 +03:00 [INF] RESPONSE: 201 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 15:11:17.912 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 15:11:17.962 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/1 
+
+2023-08-22 15:11:17.964 +03:00 [INF] RESPONSE: 200 with 
+{"id":1,"price":190,"description":"description1","title":"title1"}
+
+2023-08-22 15:11:17.964 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-22 15:11:17.965 +03:00 [INF] Correct Title: actual title1 is equal title1
+2023-08-22 15:11:17.965 +03:00 [INF] Correct Description: actual description1 is equal description1
+2023-08-22 15:11:17.965 +03:00 [INF] Correct Price: actual 190 is equal 190
+2023-08-22 15:11:17.969 +03:00 [INF] Test EditProductAndGet has been started
+2023-08-22 15:11:17.969 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":120,"Description":"description1","Title":"title1"}
+
+2023-08-22 15:11:17.970 +03:00 [INF] RESPONSE: 201 with 
+{"id":2,"price":120,"description":"description1","title":"title1"}
+
+2023-08-22 15:11:17.970 +03:00 [INF] Correct Status Code: actual 201 is equal 201
+2023-08-22 15:11:17.971 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/2 
+
+2023-08-22 15:11:17.972 +03:00 [INF] RESPONSE: 200 with 
+{"id":2,"price":100,"description":"description1","title":"title1"}
+
+2023-08-22 15:11:17.972 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-22 15:11:17.972 +03:00 [INF] REQUEST: [Get] to http://localhost//api/products/2 
+
+2023-08-22 15:11:17.972 +03:00 [INF] RESPONSE: 200 with 
+{"id":2,"price":100,"description":"description1","title":"title1"}
+
+2023-08-22 15:11:17.972 +03:00 [INF] Correct Status Code: actual 200 is equal 200
+2023-08-22 15:11:17.972 +03:00 [INF] Correct Title: actual title1 is equal title1
+2023-08-22 15:11:17.972 +03:00 [INF] Correct Description: actual description1 is equal description1
+2023-08-22 15:11:17.972 +03:00 [INF] Correct Price: actual 100 is equal 100
+2023-08-22 15:11:17.972 +03:00 [INF] Test TryToCreateProductWithoutPrice has been started
+2023-08-22 15:11:17.973 +03:00 [INF] REQUEST: [POST] to http://localhost//api/products with 
+{"Id":0,"Price":null,"Description":"description2","Title":"title2"}
+
+2023-08-22 15:11:17.974 +03:00 [INF] RESPONSE: 400 with 
+"Missing field title or price"
+
+2023-08-22 15:11:17.974 +03:00 [INF] Correct Status Code: actual 400 is equal 400

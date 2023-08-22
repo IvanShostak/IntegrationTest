@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningLogging", "LearningLogging\LearningLogging.csproj", "{1A9DB7EF-8A09-4979-B038-FB739E110C88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManager", "ProductManager\ProductManager.csproj", "{3BD53907-65F4-4F1E-9F51-441B6E586D16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A9DB7EF-8A09-4979-B038-FB739E110C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9DB7EF-8A09-4979-B038-FB739E110C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9DB7EF-8A09-4979-B038-FB739E110C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A9DB7EF-8A09-4979-B038-FB739E110C88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BD53907-65F4-4F1E-9F51-441B6E586D16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BD53907-65F4-4F1E-9F51-441B6E586D16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BD53907-65F4-4F1E-9F51-441B6E586D16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BD53907-65F4-4F1E-9F51-441B6E586D16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
